@@ -1,0 +1,52 @@
+<!-- สร้าง formของหน้า
+register 
+   รับ
+    - ชื่อ-นามสกุล
+    - UserName
+    - ว/ด/ป เกิด
+    -  อายุ
+    -  รหัสประจำตัวนักศึกษา
+    -  email
+    - password
+    - ConfirmPassword
+    
+login 
+    - Username
+    - PassWord -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>form register</h1>
+    <div>
+        <form action = "" method="get">
+            <label>ชื่อ-นามสกุล:</label>
+            <input type="text"name="fullname" id="fullname"><br>
+            <label>ว/ด/ป เกิด:</label>
+            <input type="date" name="birthdate" id="birthdate"><br>
+            <label>อายุ:</label>
+            <input type="number" name="age" id="age"><br>
+            <label>รหัสประจำตัวนักศึกษา:</label> 
+            <input type="text" name="studentId" id="studentId"><br>
+            <label>Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label>Password:</label>
+            <input type="password" name="password" id="password"><br>
+            <label>Confirm Password:</label>
+            <input type="password" name="ConfirmPassword" id="confirmPassword"><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+    </div>
+    <script src="/JavaScript/register.js">
+
+    </script>
+</body>
+</html> 
